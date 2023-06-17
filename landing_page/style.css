@@ -65,6 +65,7 @@ nav {
     padding-top:1em;
     font-weight: bold;
     flex:50%;
+    font-size:1em;
 }
 
 nav ol {
@@ -93,7 +94,8 @@ header {
 }
 
 .placeholder {
-    margin:0 2em;
+    flex:50%;
+    margin:0 0em;
     display:flex;
     align-items:center;
     justify-content: center;
