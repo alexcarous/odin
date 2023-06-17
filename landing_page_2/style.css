@@ -1,0 +1,190 @@
+/* General */
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+header, footer {
+    padding: 0 10em;
+}
+
+section {
+    padding: 4em 10em;
+}
+
+button {
+    padding: 0.5em 3em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-size:1em;
+}
+
+p { 
+    color:lightgray;
+}
+
+button:hover {
+    background-color: red;
+    cursor:help;
+}
+
+header, footer { 
+    background-color: #1F2937;
+    color:white;
+}
+
+
+.blockquote {
+    background-color: #E5E7EB;
+}
+
+section {
+    background-color: #FFF;
+}
+
+button, .cta {
+    color: #FFF;
+    background-color: #3882F6;
+}
+
+.placeholder {
+    background-color: gray;
+    color:#FFF;
+}
+
+
+/* Nav */
+nav {
+    padding-top:1em;
+    margin-bottom:5em;
+    display:flex;
+}
+
+.logo {
+    padding-top:1em;
+    font-weight: bold;
+    flex:50%;
+}
+
+nav ol {
+    flex:50%;
+    display:inline-flex;
+    list-style-type:none;
+    justify-content:flex-end;
+    color:lightgray;
+}
+
+nav ol li {
+    margin-left:2em;
+}
+
+/* Header content */
+header {
+    padding-bottom:5em;
+}
+
+.content-box {
+    display:flex;
+}
+
+.content-box div {
+    flex:50%;
+}
+
+.placeholder {
+    margin:0 2em;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.content-box button {
+    border:none;
+}
+
+
+/* Info */
+section.info h1 {
+    text-align:center;
+}
+
+section.info > div {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.info > div > div {
+    width: 20%;
+}
+
+section.info > div > div > div {
+    width:10em;
+    height:10em;
+    border:solid 4px blue;
+    border-radius:0.5em;
+}
+
+section.info > div div > p {
+    width:75%;
+    color:darkgray;
+    text-align:center;
+}
+
+/* Blockquote */
+section.blockquote > div {
+    width:70%;
+    margin:auto;
+}
+
+blockquote {
+    font-style:italic;
+    font-weight:lighter;
+    font-size:2em;
+}
+
+cite {
+    float:right;
+    font-weight:bold;
+}
+
+
+/* CTA */
+section.cta {
+    background-color: #FFF;
+}
+
+section.cta > div {
+    background-color: #3882F6;
+    border-radius:0.5em;
+    width:50%;
+    margin:auto;
+    padding:2em 7em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+section.cta h1, section.cta p {
+    margin:0;
+}
+
+section.cta button {
+    border:2px white solid;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align:center;
+    padding: 2em 0;
+}
+
+footer > p {
+    color:white;
+}
